@@ -6,13 +6,13 @@ toggleBtn.addEventListener("click", ()=>{
     if(skillSec.style.display !== "none"){
         skillSec.style.display="none";
         toggleBtn.style.backgroundColor ="#de2f2f"
-        toggleBtn.innerHTML = "Hide"
+        toggleBtn.innerHTML = "Show"
         
         
     }else{
         skillSec.style.display="block";
         toggleBtn.style.backgroundColor ="#007bff"
-        toggleBtn.innerHTML = "Show"
+        toggleBtn.innerHTML = "Hide"
     
     }
 });
